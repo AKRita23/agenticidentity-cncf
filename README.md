@@ -40,7 +40,7 @@ POC Workflow Expansion (if time permits):
 <img width="1680" height="1500" alt="image" src="https://github.com/user-attachments/assets/5bbc80c6-c744-44c6-b6aa-7215af24306b" />
 
 
-The end-to-end sequence — local scan, discovery, cross-domain token exchange, PDP enforcement, sub-agent spawn, and audit — is in [`docs/diagrams/sequence.mmd`](docs/diagrams/sequence.mmd) (renders on GitHub / VS Code / mermaid.live).
+The end-to-end sequence — local scan, discovery, cross-domain token exchange, PDP enforcement, sub-agent spawn, and audit.
 
 ### Phasing
 
