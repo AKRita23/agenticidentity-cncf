@@ -39,10 +39,6 @@ POC Workflow Expansion (if time permits):
 
 The end-to-end sequence — local scan, discovery, cross-domain token exchange, PDP enforcement, sub-agent spawn, and audit — is in [`docs/diagrams/sequence.mmd`](docs/diagrams/sequence.mmd) (renders on GitHub / VS Code / mermaid.live).
 
-### Feasibility & Threat Model
-
-A consolidated use case, feasibility read (green / amber / red), phased build plan, and a STRIDE-per-boundary threat model with named residual risks is in [`docs/USECASE-FEASIBILITY-THREATMODEL.md`](docs/USECASE-FEASIBILITY-THREATMODEL.md).
-
 ### Phasing
 
 | Phase | Deliverable | Proves |
@@ -52,7 +48,7 @@ A consolidated use case, feasibility read (green / amber / red), phased build pl
 | 2 | OpenCode + OPA gate (single domain) | bounded-privilege, intent-scoped agent |
 | 3 | 2nd realm + federation + 8693/ID-JAG + Envoy/OPA at B | cross-domain crossing, intent re-checked |
 | 4 | remediation sub-agent + narrowed badge + PR | multi-agent bounded delegation |
-| 5 (later) | Transaction Token Service + full OTel | intra-domain propagation + causal audit |
+| 5 (TBD) | Transaction Token Service + full OTel | intra-domain propagation + causal audit |
 
 ## About
 
