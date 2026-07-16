@@ -29,13 +29,16 @@ POC Workflow Expansion (if time permits):
 
 ### High Level Architecture Overview and Components
 
-![Architecture](docs/diagrams/architecture.png)
+<img width="1600" height="1120" alt="image" src="https://github.com/user-attachments/assets/3ba33241-05e8-4bb8-a1b3-2c8af4be0f92" />
 
-**Stack (all OSS / CNCF):** Kubernetes (KinD) · Envoy AI Gateway · OPA / Cedar · Keycloak · OpenTelemetry · Gitea · AGNTCY Identity Service · AGNTCY dir · OpenCode.
+**Stack (all OSS / CNCF):** Kubernetes (KinD) · Envoy AI Gateway · OPA / Cedar · Keycloak · OpenTelemetry · AGNTCY Identity Service · AGNTCY dir · OpenCode.
 
-**Standards:** W3C Verifiable Credentials · RFC 8693 Token Exchange · ID-JAG · Client ID Metadata Document (CIMD). *(Transaction Tokens — later phase.)*
+**Standards:** W3C Verifiable Credentials · RFC 8693 Token Exchange · ID-JAG · Client ID Metadata Document (CIMD). *(Transaction Tokens for agentic context — later phase.)*
 
 ### Architecture Workflow Diagram
+
+<img width="1680" height="1500" alt="image" src="https://github.com/user-attachments/assets/5bbc80c6-c744-44c6-b6aa-7215af24306b" />
+
 
 The end-to-end sequence — local scan, discovery, cross-domain token exchange, PDP enforcement, sub-agent spawn, and audit — is in [`docs/diagrams/sequence.mmd`](docs/diagrams/sequence.mmd) (renders on GitHub / VS Code / mermaid.live).
 
